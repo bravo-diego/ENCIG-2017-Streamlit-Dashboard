@@ -112,6 +112,8 @@ with col2:
 	fig.update_traces(marker_color = 'steelblue', marker_line_color = 'slategray', marker_line_width = 1.5, opacity = 0.6)
 	st.plotly_chart(fig) # satisfacción general con los servicios básicos
 
+st.write("## Nivel de Percepción de la Corrupción y su Relación con el Nivel de Satisfacción General con los Servicios Básicos") 
+
 barplot_corruption_services = pd.read_csv('ENCIG-2017/Processed-Data/barplot_corruption_services.csv')
 
 fig = go.Figure()
@@ -122,7 +124,7 @@ fig.add_trace(go.Bar(
     marker_color = 'brown', 
     #marker_line_color = 'slategray', 
     #marker_line_width = 1.5, 
-    opacity = 0.8
+    opacity = 0.6
 ))
 fig.add_trace(go.Bar(
     x = barplot_corruption_services['Entidad_Federativa'],
@@ -131,7 +133,7 @@ fig.add_trace(go.Bar(
     marker_color = 'steelblue',
     #marker_line_color = 'slategray',
     #marker_line_width = 1.5, 
-    opacity = 0.8
+    opacity = 0.6
 ))
 fig.update_layout(barmode = 'group', bargroupgap = 0.10, bargap = 0.20)
 fig.update_layout(
@@ -163,12 +165,17 @@ bargroupgap = 0.1
 
 st.plotly_chart(fig) 
 
-st.write("## Problemas en el Pago, Trámite o Solicitud de Servicios de Salud")
+st.markdown("El problema predominante en los pagos, trámites o solicitudes de servicios públicos es la espera en **largas filas** al momento de realizarlos. Le sigue una **falta de claridad** en los requisitos y la existencia de **horarios restringidos**. Esto es de vital importancia, ya que la mayoría de la población mexicana no cuenta con el tiempo necesario para afrontar largos períodos de espera durante los breves horarios de atención, generalmente limitados a días laborables de 8 am a 3 pm, lo que choca con los horarios laborales habituales de la ciudadanía.")
+
+st.markdown("El segundo problema más común es la **falta de claridad** en los requisitos solicitados, lo cual está relacionado con lo mencionado anteriormente. Dado que los días disponibles para resolver este tipo de problemas son limitados, el rechazo de un trámite debido a un requisito erróneo puede convertirse en un inconveniente que requiere atención en la mayoría de las instituciones públicas del país.")
+
+st.write("## Experiencias con Pagos, Trámites y Solicitudes de Servicios Públicos: Servicios de Salud")
 
 contingency_table_health_services_updated = pd.read_csv('ENCIG-2017/Processed-Data/contingency_table_health_services_updated.csv')
 
 colors = ['lightslategray'] * 11
 colors[0] = 'brown'
+colors[3] = 'brown'
 
 fig = go.Figure()
 fig.add_trace(go.Bar(
@@ -182,3 +189,13 @@ fig.update_layout(barmode = 'group', bargroupgap = 0.10, bargap = 0.20)
 bargroupgap=0.1
 
 st.plotly_chart(fig) # problemas en el pago, trámite o solicitud de servicios de salud
+
+st.markdown("El problema predominante en los trámites relacionados con servicios de salud son las **largas filas** al momento de realizarlos. Esto es de gran importancia, ya que el tiempo de espera es crucial en el ámbito de la salud. Las largas filas podrían influir en la decisión de los ciudadanos de solicitar el servicio, lo que, a su vez, podría llevarlos a optar por atención privada en lugar de los servicios de salud pública.")
+
+st.markdown("Del total de pagos, trámites o solicitudes de servicios de salud realizados por los usuarios, aproximadamente el 15% de ellos experimentaron algún tipo de problema durante el proceso. El más común de estos inconvenientes fue el de **largas filas**, representando un 47% del total. Son necesarios análisis adicionales para determinar las causas que explican la falta de información respecto al nivel de satisfacción de los ciudadanos con los servicios de salud.")
+
+st.divider()
+
+st.text("Autor: Diego Godinez Bravo")
+
+st.text("Junio 2024")
