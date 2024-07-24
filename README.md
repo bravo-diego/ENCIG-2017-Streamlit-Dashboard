@@ -13,7 +13,7 @@ Streamlit is an open-source Python framework to create data applications in an i
 
 ### About the Data
 
-"*The National Survey on Governmental Quality and Impact (ENCIG) 2017 was conducted from November 6th to December 15th, 2017. Its aim is to collect information on experiences and perceptions of the population on public procedures and services provided by different government levels, including public security and justice services, to provide elements to make public policy decisions.*" Instituto Nacional de Estadística y Geografía (INEGI). 
+"*The National Survey on Governmental Quality and Impact (ENCIG) 2017 was conducted from November 6th to December 15th, 2017. Its aim is to collect information on experiences and perceptions of the population on public procedures and services provided by different government levels, including public security and justice services, to provide elements to make public policy decisions.*" National Institute of Statistics and Geography of Mexico (INEGI). 
 
 Data source retrieved from [ENCIG 2017](https://www.inegi.org.mx/programas/encig/2017/default.html#Microdatos) 
 
