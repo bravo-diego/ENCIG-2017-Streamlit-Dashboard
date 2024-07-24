@@ -1,7 +1,7 @@
 # ENCIG-2017-Streamlit-Dashboard
 National Survey on Governmental Quality and Impact (ENCIG) 2017 Streamlit Dashboard
 
-This repository was intended to create a simple dashboard using **Streamlit** to complement the Data Science Capstone Project. 
+This repository was intended to create and deploy a simple dashboard using **Streamlit** in order to complement the **Data Science** Capstone Project.
 
 Link to Streamlit Dashboard [encig-2017.streamlit.app](https://encig-2017.streamlit.app/)
 
@@ -19,9 +19,9 @@ Data source retrieved from [ENCIG 2017](https://www.inegi.org.mx/programas/encig
 
 ### About the Project
 
-This repository is part of the Data Science Capstone Project, this course is part of the **MSc Statistical Computing Program** at **Mathematics Research Center** (more info at [*Maestria en Computo Estadistico CIMAT Monterrey*](https://mce.cimat.mx/es)). The main objective of this project was to learn how to handle **categorical data**, focusing on statistical methods such as **Correspondence Analysis** (CA) and its extension, **Multiple Correspondence Analysis** (MCA), to gain insights and understand the data. The dashboard was created to share the main findings for an audience with no prior statistical experience. It is important to mention that the results obtained from the CA and MCA analyses support the findings from the exploratory and descriptive analyses. Therefore, understanding the fundamentals of these statistical tools is crucial for understand and handle the data in a simple way. 
+This repository is part of the **Data Science** Capstone Project, a course part of the **MSc Statistical Computing Program** at **Mathematics Research Center** (more info at [*Maestria en Computo Estadistico CIMAT Monterrey*](https://mce.cimat.mx/es)). The main objective of this project was to learn how to handle **categorical data**, focusing on statistical methods such as **Correspondence Analysis** (CA) and its extension, **Multiple Correspondence Analysis** (MCA), to gain insights and understand the data. The dashboard was created to share the main findings for an audience with no prior statistical experience. It is important to mention that the results obtained from the CA and MCA analyses support the findings from the exploratory and descriptive analyses. Therefore, understanding the fundamentals of these statistical tools is crucial for understand and handle the data in a simple way. 
 
-To view the exploratory and descriptive data analysis, along with data processing and statistical analysis click [here](https://github.com/bravo-diego/MSc-Statistical-Computing/tree/main/2nd-Semester/Data-Science/Capstone-Project).
+To view the exploratory and descriptive data analysis, along with data processing and statistical analysis click [here](https://github.com/bravo-diego/MSc-Statistical-Computing/tree/main/2nd-Semester/Data-Science/Capstone-Project)
 
 _July 2024_
 
