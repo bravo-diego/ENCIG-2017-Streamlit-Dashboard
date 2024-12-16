@@ -23,7 +23,7 @@ This repository is part of the **Data Science** Capstone Project, a course part 
 
 To view the exploratory and descriptive data analysis, along with data processing and statistical analysis click [here](https://github.com/bravo-diego/MSc-Statistical-Computing/tree/main/2nd-Semester/Data-Science/Capstone-Project)
 
-_July 2024_
+_Last Updated November 2024_
 
  ***
 
